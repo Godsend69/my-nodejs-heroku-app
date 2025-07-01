@@ -1,11 +1,16 @@
 {
   "name": "my-nodejs-heroku-app",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "A minimal Node.js app ready for Heroku or local deployment.",
+=======
+  "description": "A minimal Node.js/Express app ready for Heroku or local deployment.",
+>>>>>>> cdd8e568c84caef2fc2f608f7ffe7355b65048d7
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "Godsend69",
   "license": "MIT",
@@ -13,3 +18,12 @@
     "express": "^4.18.2"
   }
 }
+=======
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+>>>>>>> cdd8e568c84caef2fc2f608f7ffe7355b65048d7
